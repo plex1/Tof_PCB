@@ -1065,20 +1065,6 @@ F 3 "" H 8350 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5DDE9A1C
-P 8650 5000
-AR Path="/5DDE9A1C" Ref="#PWR?"  Part="1" 
-AR Path="/5DB7F50A/5DDE9A1C" Ref="#PWR?"  Part="1" 
-AR Path="/5DD4CF74/5DDE9A1C" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 8650 4750 50  0001 C CNN
-F 1 "GND" H 8655 4827 50  0000 C CNN
-F 2 "" H 8650 5000 50  0001 C CNN
-F 3 "" H 8650 5000 50  0001 C CNN
-	1    8650 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L L?
 U 1 1 5DDE9A22
 P 8900 4700
@@ -2685,4 +2671,20 @@ $EndComp
 Connection ~ 1700 3900
 Wire Wire Line
 	1700 3900 1600 3900
+Text Label 2600 5850 0    50   ~ 0
+buffer_out
+$Comp
+L power:GND #PWR?
+U 1 1 5E49E4FE
+P 8650 5000
+AR Path="/5E49E4FE" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7F50A/5E49E4FE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD4CF74/5E49E4FE" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 8650 4750 50  0001 C CNN
+F 1 "GND" H 8655 4827 50  0000 C CNN
+F 2 "" H 8650 5000 50  0001 C CNN
+F 3 "" H 8650 5000 50  0001 C CNN
+	1    8650 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

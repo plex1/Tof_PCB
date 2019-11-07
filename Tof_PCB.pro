@@ -1,4 +1,4 @@
-update=11/5/2019 3:20:11 PM
+update=11/7/2019 2:47:46 PM
 version=1
 last_client=kicad
 [general]
@@ -241,7 +241,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=50Ohms
 Clearance=0.2
-TrackWidth=0.3048
+TrackWidth=0.36
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
