@@ -21,12 +21,13 @@ P 2150 5850
 F 0 "U15" H 1550 6250 50  0000 L CNN
 F 1 "LMH6559MF" H 1550 6150 50  0000 L CNN
 F 2 "IODA_Lib:SOT95PX285X122-5N" H 2825 6175 50  0001 L BNN
-F 3 "SOT-23-5 Texas Instruments" H 2425 6250 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/texas-instruments/LMH6559MF/296-46123-1-ND/3700634?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2425 6250 50  0001 L BNN
 F 4 "LMH6559MF" H 2000 6350 50  0001 L BNN "Field4"
 F 5 "296-46123-1-ND" H 2775 6350 50  0001 L BNN "Field5"
 F 6 "Closed Loop Buffer Signal 1.75ghz Sot23-5, Full Reel" H 2425 6325 50  0001 L BNN "Field6"
 F 7 "Texas Instruments" H 1850 6275 50  0001 L BNN "Field7"
 F 8 "https://www.digikey.com/product-detail/en/texas-instruments/LMH6559MF/296-46123-1-ND/3700634?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2450 6425 50  0001 L BNN "Field8"
+F 9 "296-46123-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    2150 5850
 	1    0    0    -1  
 $EndComp
@@ -37,7 +38,8 @@ P 3500 5850
 F 0 "U18" H 3400 5403 50  0000 C CNN
 F 1 "ts5a4596" H 3400 5312 50  0000 C CNN
 F 2 "IODA_Lib:SOT95PX285X122-5N" H 3525 6350 50  0001 C CNN
-F 3 "" H 3525 6350 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts5a4596" H 3525 6350 50  0001 C CNN
+F 4 "296-17709-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    3500 5850
 	1    0    0    -1  
 $EndComp
@@ -70,7 +72,8 @@ P 3500 6850
 F 0 "U19" H 3400 6403 50  0000 C CNN
 F 1 "ts5a4596" H 3400 6312 50  0000 C CNN
 F 2 "IODA_Lib:SOT95PX285X122-5N" H 3525 7350 50  0001 C CNN
-F 3 "" H 3525 7350 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts5a4596" H 3525 7350 50  0001 C CNN
+F 4 "296-17709-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    3500 6850
 	1    0    0    -1  
 $EndComp
@@ -202,6 +205,7 @@ F 0 "U30" H 9250 4247 60  0000 C CNN
 F 1 "NC7WZ00K8X" H 9250 4141 60  0000 C CNN
 F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 8800 4000 60  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 8800 4000 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8800 3900
 	1    0    0    -1  
 $EndComp
@@ -241,6 +245,7 @@ F 0 "C51" H 8665 1246 50  0000 L CNN
 F 1 "100nF" H 8665 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 1050 50  0001 C CNN
 F 3 "~" H 8550 1200 50  0001 C CNN
+F 4 "" H 8550 1200 50  0001 C CNN "Digi-Key_PN"
 	1    8550 1200
 	1    0    0    -1  
 $EndComp
@@ -367,6 +372,7 @@ F 0 "L14" V 6819 1050 50  0000 C CNN
 F 1 "L" V 6910 1050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 7000 1050 50  0001 C CNN
 F 3 "~" H 7000 1050 50  0001 C CNN
+F 4 "490-5216-1-ND" H 7000 1050 50  0001 C CNN "Digi-Key_PN"
 	1    7000 1050
 	0    1    1    0   
 $EndComp
@@ -409,6 +415,7 @@ F 0 "C45" H 7665 1246 50  0000 L CNN
 F 1 "100nF" H 7665 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 1050 50  0001 C CNN
 F 3 "~" H 7550 1200 50  0001 C CNN
+F 4 "" H 7550 1200 50  0001 C CNN "Digi-Key_PN"
 	1    7550 1200
 	1    0    0    -1  
 $EndComp
@@ -499,7 +506,8 @@ P 5750 2200
 F 0 "U22" V 5949 2377 50  0000 L CNN
 F 1 "UMCC_50Ohm" V 5858 2377 50  0000 L CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 5750 2200 50  0001 C CNN
-F 3 "" H 5750 2200 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 5750 2200 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    5750 2200
 	0    -1   -1   0   
 $EndComp
@@ -558,6 +566,7 @@ F 0 "L12" V 2800 2550 50  0000 C CNN
 F 1 "L" V 2910 2500 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 3000 2500 50  0001 C CNN
 F 3 "~" H 3000 2500 50  0001 C CNN
+F 4 "490-5216-1-ND" H 3000 2500 50  0001 C CNN "Digi-Key_PN"
 	1    3000 2500
 	0    1    1    0   
 $EndComp
@@ -698,7 +707,7 @@ L Device:C C27
 U 1 1 5DD564A3
 P 1350 1450
 F 0 "C27" H 1465 1496 50  0000 L CNN
-F 1 "2.2uF" H 1465 1405 50  0000 L CNN
+F 1 "10nF, 250V" V 1500 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 1300 50  0001 C CNN
 F 3 "~" H 1350 1450 50  0001 C CNN
 	1    1350 1450
@@ -709,7 +718,7 @@ L Device:C C28
 U 1 1 5DD562CA
 P 1800 1450
 F 0 "C28" H 1915 1496 50  0000 L CNN
-F 1 "100nF" H 1915 1405 50  0000 L CNN
+F 1 "10nF, 250V" V 1950 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1838 1300 50  0001 C CNN
 F 3 "~" H 1800 1450 50  0001 C CNN
 	1    1800 1450
@@ -720,7 +729,7 @@ L Device:C C29
 U 1 1 5DD5506A
 P 2250 1450
 F 0 "C29" H 2365 1496 50  0000 L CNN
-F 1 "100nF" H 2365 1405 50  0000 L CNN
+F 1 "10nF, 250V" V 2400 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 1300 50  0001 C CNN
 F 3 "~" H 2250 1450 50  0001 C CNN
 	1    2250 1450
@@ -744,7 +753,8 @@ P 10150 3800
 F 0 "U27" H 9962 3646 50  0000 R CNN
 F 1 "UMCC_50Ohm" H 9962 3737 50  0000 R CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 10150 3800 50  0001 C CNN
-F 3 "" H 10150 3800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 10150 3800 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    10150 3800
 	-1   0    0    1   
 $EndComp
@@ -756,6 +766,7 @@ F 0 "U23" H 8300 3600 60  0000 L CNN
 F 1 "TLV3501" H 8300 3500 60  0000 L CNN
 F 2 "IODA_Lib:SOT-23-6" H 8150 3800 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv3501.pdf" H 8150 3800 50  0001 C CNN
+F 4 "296-43611-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8150 3800
 	1    0    0    -1  
 $EndComp
@@ -766,12 +777,13 @@ P 4050 2700
 F 0 "U21" H 4050 3270 50  0000 C CNN
 F 1 "LP5907MFX-3.3_NOPB" H 4050 3179 50  0000 C CNN
 F 2 "IODA_Lib:SOT95P280X145-5N" H 4050 2700 50  0001 L BNN
-F 3 "LP5907MFX-3.3/NOPB" H 4050 2700 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 4050 2700 50  0001 L BNN
 F 4 "https://www.digikey.ch/product-detail/en/texas-instruments/LP5907MFX-3.3-NOPB/296-38557-1-ND/5034443?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4050 2700 50  0001 L BNN "Field4"
 F 5 "296-38557-1-ND" H 4050 2700 50  0001 L BNN "Field5"
 F 6 "Texas Instruments" H 4050 2700 50  0001 L BNN "Field6"
 F 7 "SOT-23 Texas Instruments" H 4050 2700 50  0001 L BNN "Field7"
 F 8 "250mA, Ultra-Low Noise Low-Dropout egulator 5-SOT-23 -40 to 125" H 4050 2700 50  0001 L BNN "Field8"
+F 9 "296-38557-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4050 2700
 	1    0    0    -1  
 $EndComp
@@ -783,33 +795,36 @@ F 0 "U25" H 8650 2240 50  0000 C CNN
 F 1 "HMC589AST89E" H 8650 2149 50  0000 C CNN
 F 2 "IODA_Lib:SOT150P410X160-3N" H 8550 1950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc589a.pdf" H 8550 1950 50  0001 C CNN
+F 4 "1127-3329-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8550 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L ioda:MAX40658 U20
+L ioda:MAX40659 U20
 U 1 1 5DD4DED8
 P 4150 1500
 F 0 "U20" H 4150 2165 50  0000 C CNN
-F 1 "MAX40658" H 4150 2074 50  0000 C CNN
+F 1 "MAX40659" H 4150 2074 50  0000 C CNN
 F 2 "IODA_Lib:SON65P300X300X80-9N" H 4150 1500 50  0001 L BNN
-F 3 "MAX40658ETA+" H 4150 1500 50  0001 L BNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40658-MAX40659.pdf" H 4150 1500 50  0001 L BNN
 F 4 "https://www.digikey.ch/product-detail/en/maxim-integrated/MAX40658ETA-/MAX40658ETA--ND/7691402?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4150 1500 50  0001 L BNN "Field4"
-F 5 "MAX40658ETA+-ND" H 4150 1500 50  0001 L BNN "Field5"
+F 5 "MAX40659ETA+-ND" H 4150 1500 50  0001 L BNN "Field5"
 F 6 "Maxim Integrated" H 4150 1500 50  0001 L BNN "Field6"
 F 7 "TQFN-8 Maxim" H 4150 1500 50  0001 L BNN "Field7"
 F 8 "Transimpedance Amplifiers Trans impedance preamplifier" H 4150 1500 50  0001 L BNN "Field8"
+F 9 "MAX40659ETA+TCT-ND" H 4150 1500 50  0001 C CNN "Digi-Key_PN"
 	1    4150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L ioda:MTAPD-06 D3
+L ioda:MTAPD-06-013 D3
 U 1 1 5DD4D2E8
 P 2750 1300
 F 0 "D3" H 2750 975 50  0000 C CNN
 F 1 "MTAPD-06" H 2750 1066 50  0000 C CNN
 F 2 "IODA_Lib:MTAPD-06" H 2750 1300 50  0001 C CNN
-F 3 "" H 2750 1300 50  0001 C CNN
+F 3 "https://marktechopto.com/pdf/products/datasheet/MTAPD-06-013%20thru%20016-905F.pdf" H 2750 1300 50  0001 C CNN
+F 4 "1125-1298-ND" H 2750 1300 50  0001 C CNN "Digi-Key_PN"
 	1    2750 1300
 	-1   0    0    1   
 $EndComp
@@ -842,7 +857,8 @@ P 10150 5300
 F 0 "U28" H 9962 5146 50  0000 R CNN
 F 1 "UMCC_50Ohm" H 9962 5237 50  0000 R CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 10150 5300 50  0001 C CNN
-F 3 "" H 10150 5300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 10150 5300 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    10150 5300
 	-1   0    0    1   
 $EndComp
@@ -854,6 +870,7 @@ F 0 "U26" H 9250 5747 60  0000 C CNN
 F 1 "NC7WZ00K8X" H 9250 5641 60  0000 C CNN
 F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 8800 5500 60  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 8800 5500 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8800 5400
 	1    0    0    -1  
 $EndComp
@@ -865,6 +882,7 @@ F 0 "U26" H 10328 5828 60  0000 L CNN
 F 1 "NC7WZ00K8X" H 10328 5722 60  0000 L CNN
 F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 10050 5950 60  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 10050 5950 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	3    10050 5850
 	1    0    0    -1  
 $EndComp
@@ -928,7 +946,7 @@ Wire Wire Line
 	9300 5850 9600 5850
 Connection ~ 9300 5850
 Wire Wire Line
-	9600 5850 9850 5850
+	9600 5850 9700 5850
 Connection ~ 9600 5850
 Wire Wire Line
 	8800 5850 8900 5850
@@ -985,6 +1003,7 @@ F 0 "L15" V 8869 5850 50  0000 C CNN
 F 1 "L" V 8960 5850 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9050 5850 50  0001 C CNN
 F 3 "~" H 9050 5850 50  0001 C CNN
+F 4 "490-5216-1-ND" H 9050 5850 50  0001 C CNN "Digi-Key_PN"
 	1    9050 5850
 	0    1    1    0   
 $EndComp
@@ -999,6 +1018,7 @@ F 0 "C53" H 9650 6100 50  0000 L CNN
 F 1 "100nF" H 9600 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9638 5850 50  0001 C CNN
 F 3 "~" H 9600 6000 50  0001 C CNN
+F 4 "" H 9600 6000 50  0001 C CNN "Digi-Key_PN"
 	1    9600 6000
 	1    0    0    -1  
 $EndComp
@@ -1069,6 +1089,7 @@ F 0 "L17" V 8719 4700 50  0000 C CNN
 F 1 "L" V 8810 4700 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8900 4700 50  0001 C CNN
 F 3 "~" H 8900 4700 50  0001 C CNN
+F 4 "490-5216-1-ND" H 8900 4700 50  0001 C CNN "Digi-Key_PN"
 	1    8900 4700
 	0    1    1    0   
 $EndComp
@@ -1097,11 +1118,10 @@ F 0 "C47" H 8100 4900 50  0000 L CNN
 F 1 "100nF" H 8100 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8388 4700 50  0001 C CNN
 F 3 "~" H 8350 4850 50  0001 C CNN
+F 4 "" H 8350 4850 50  0001 C CNN "Digi-Key_PN"
 	1    8350 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 3200 9000 3200
 $Comp
 L power:+5V #PWR?
 U 1 1 5DDEFE62
@@ -1127,6 +1147,7 @@ F 0 "L16" V 8969 3200 50  0000 C CNN
 F 1 "L" V 9060 3200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9150 3200 50  0001 C CNN
 F 3 "~" H 9150 3200 50  0001 C CNN
+F 4 "490-5216-1-ND" H 9150 3200 50  0001 C CNN "Digi-Key_PN"
 	1    9150 3200
 	0    1    1    0   
 $EndComp
@@ -1155,6 +1176,7 @@ F 0 "C46" H 8150 3400 50  0000 L CNN
 F 1 "100nF" H 8150 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 3200 50  0001 C CNN
 F 3 "~" H 8400 3350 50  0001 C CNN
+F 4 "" H 8400 3350 50  0001 C CNN "Digi-Key_PN"
 	1    8400 3350
 	1    0    0    -1  
 $EndComp
@@ -1253,6 +1275,7 @@ F 0 "U24" H 8300 5200 60  0000 L CNN
 F 1 "TLV3501" H 8200 5100 60  0000 L CNN
 F 2 "IODA_Lib:SOT-23-6" H 8150 5300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv3501.pdf" H 8150 5300 50  0001 C CNN
+F 4 "296-43611-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8150 5300
 	1    0    0    -1  
 $EndComp
@@ -1268,7 +1291,7 @@ F 3 "" H 2100 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 5200 2900 5200
+	2600 5200 2800 5200
 Connection ~ 2600 5200
 Wire Wire Line
 	2900 5200 3150 5200
@@ -1326,6 +1349,7 @@ F 0 "L13" V 3119 5200 50  0000 C CNN
 F 1 "L" V 3210 5200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 3300 5200 50  0001 C CNN
 F 3 "~" H 3300 5200 50  0001 C CNN
+F 4 "490-5216-1-ND" H 3300 5200 50  0001 C CNN "Digi-Key_PN"
 	1    3300 5200
 	0    1    1    0   
 $EndComp
@@ -1354,6 +1378,7 @@ F 0 "C30" H 2300 5350 50  0000 L CNN
 F 1 "100nF" H 2300 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 5200 50  0001 C CNN
 F 3 "~" H 2600 5350 50  0001 C CNN
+F 4 "" H 2600 5350 50  0001 C CNN "Digi-Key_PN"
 	1    2600 5350
 	1    0    0    -1  
 $EndComp
@@ -1428,7 +1453,8 @@ P 2600 3900
 F 0 "U16" H 2350 4250 50  0000 C CNN
 F 1 "SiPM-MicroRB" H 2250 4150 50  0000 C CNN
 F 2 "IODA_Lib:CWDFN4_1.5x1.8_0.8P" H 2450 4250 50  0001 C CNN
-F 3 "" H 2450 4250 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MICRORB-SERIES-D.PDF" H 2450 4250 50  0001 C CNN
+F 4 "MICRORB-10020-MLP-TR1OS-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    2600 3900
 	1    0    0    -1  
 $EndComp
@@ -1536,7 +1562,8 @@ P 3400 4350
 F 0 "U17" V 3600 4400 50  0000 L CNN
 F 1 "UMCC_50Ohm" V 3508 4527 50  0000 L CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 3400 4350 50  0001 C CNN
-F 3 "" H 3400 4350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 3400 4350 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    3400 4350
 	0    -1   -1   0   
 $EndComp
@@ -1562,6 +1589,7 @@ F 0 "C40" H 5365 2696 50  0000 L CNN
 F 1 "100nF" H 5365 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 2500 50  0001 C CNN
 F 3 "~" H 5250 2650 50  0001 C CNN
+F 4 "" H 5250 2650 50  0001 C CNN "Digi-Key_PN"
 	1    5250 2650
 	1    0    0    -1  
 $EndComp
@@ -1579,12 +1607,12 @@ $EndComp
 $Comp
 L ioda:mounting_holes_laser M4
 U 1 1 5DF926C0
-P 4350 4050
-F 0 "M4" H 4703 4096 50  0000 L CNN
-F 1 "mounting_holes_laser" H 4703 4005 50  0000 L CNN
-F 2 "IODA_Lib:mounting_holes_17.8mm" H 4350 4050 50  0001 C CNN
-F 3 "" H 4350 4050 50  0001 C CNN
-	1    4350 4050
+P 4750 3950
+F 0 "M4" H 5103 3996 50  0000 L CNN
+F 1 "mounting_holes_laser" H 5103 3905 50  0000 L CNN
+F 2 "IODA_Lib:mounting_holes_17.8mm" H 4750 3950 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
+	1    4750 3950
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1642,7 +1670,8 @@ P 4850 6400
 F 0 "D4" H 4850 6184 50  0000 C CNN
 F 1 "BAS170W" H 4850 6275 50  0000 C CNN
 F 2 "IODA_Lib:SOD2513X114N" H 4850 6400 50  0001 C CNN
-F 3 "~" H 4850 6400 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BAS70series-DataSheet-v01_00-EN.pdf?fileId=5546d4626d66c2b1016d73f7ecf220d6&redirId=117943" H 4850 6400 50  0001 C CNN
+F 4 "BAS170WS-E3-08GICT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4850 6400
 	-1   0    0    1   
 $EndComp
@@ -1731,7 +1760,8 @@ P 10650 1000
 F 0 "U29" V 10850 1050 50  0000 L CNN
 F 1 "UMCC_50Ohm" V 10400 700 50  0000 L CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 10650 1000 50  0001 C CNN
-F 3 "" H 10650 1000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 10650 1000 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    10650 1000
 	0    1    1    0   
 $EndComp
@@ -1839,6 +1869,7 @@ F 0 "TP4" H 4508 5968 50  0000 L CNN
 F 1 "TestPoint" H 4500 6050 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4650 5850 50  0001 C CNN
 F 3 "~" H 4650 5850 50  0001 C CNN
+F 4 "732-5314-ND" H 4450 5850 50  0001 C CNN "Digi-Key_PN"
 	1    4450 5850
 	1    0    0    -1  
 $EndComp
@@ -1850,6 +1881,7 @@ F 0 "TP6" H 5358 6418 50  0000 L CNN
 F 1 "TestPoint" H 5350 6500 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 5500 6300 50  0001 C CNN
 F 3 "~" H 5500 6300 50  0001 C CNN
+F 4 "732-5314-ND" H 5300 6300 50  0001 C CNN "Digi-Key_PN"
 	1    5300 6300
 	1    0    0    -1  
 $EndComp
@@ -1862,6 +1894,7 @@ F 0 "TP5" H 4500 6950 50  0000 L CNN
 F 1 "TestPoint" H 4500 7050 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4650 6850 50  0001 C CNN
 F 3 "~" H 4650 6850 50  0001 C CNN
+F 4 "732-5314-ND" H 4450 6850 50  0001 C CNN "Digi-Key_PN"
 	1    4450 6850
 	1    0    0    -1  
 $EndComp
@@ -1873,6 +1906,7 @@ F 0 "U30" H 10328 4278 60  0000 L CNN
 F 1 "NC7WZ00K8X" H 10328 4172 60  0000 L CNN
 F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 10050 4400 60  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 10050 4400 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	3    10050 4300
 	1    0    0    -1  
 $EndComp
@@ -1893,7 +1927,7 @@ Wire Wire Line
 	9300 4300 9600 4300
 Connection ~ 9300 4300
 Wire Wire Line
-	9600 4300 9850 4300
+	9600 4300 9750 4300
 Connection ~ 9600 4300
 Wire Wire Line
 	8800 4300 8900 4300
@@ -1950,6 +1984,7 @@ F 0 "L20" V 8869 4300 50  0000 C CNN
 F 1 "L" V 8960 4300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 9050 4300 50  0001 C CNN
 F 3 "~" H 9050 4300 50  0001 C CNN
+F 4 "490-5216-1-ND" H 9050 4300 50  0001 C CNN "Digi-Key_PN"
 	1    9050 4300
 	0    1    1    0   
 $EndComp
@@ -1964,6 +1999,7 @@ F 0 "C58" H 9650 4550 50  0000 L CNN
 F 1 "100nF" H 9600 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9638 4300 50  0001 C CNN
 F 3 "~" H 9600 4450 50  0001 C CNN
+F 4 "" H 9600 4450 50  0001 C CNN "Digi-Key_PN"
 	1    9600 4450
 	1    0    0    -1  
 $EndComp
@@ -2063,6 +2099,7 @@ F 0 "C64" V 10002 1500 50  0000 C CNN
 F 1 "100nF" V 9911 1500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9788 1350 50  0001 C CNN
 F 3 "~" H 9750 1500 50  0001 C CNN
+F 4 "" H 9750 1500 50  0001 C CNN "Digi-Key_PN"
 	1    9750 1500
 	0    -1   -1   0   
 $EndComp
@@ -2085,6 +2122,7 @@ F 0 "TP9" H 7508 5518 50  0000 L CNN
 F 1 "TestPoint" H 7508 5427 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7650 5400 50  0001 C CNN
 F 3 "~" H 7650 5400 50  0001 C CNN
+F 4 "732-5314-ND" H 7450 5400 50  0001 C CNN "Digi-Key_PN"
 	1    7450 5400
 	1    0    0    -1  
 $EndComp
@@ -2110,6 +2148,7 @@ F 0 "C63" H 7615 4146 50  0000 L CNN
 F 1 "100nF" H 7615 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 3950 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
+F 4 "" H 7500 4100 50  0001 C CNN "Digi-Key_PN"
 	1    7500 4100
 	1    0    0    -1  
 $EndComp
@@ -2134,7 +2173,7 @@ Connection ~ 8650 4700
 Wire Wire Line
 	8650 4700 8750 4700
 Wire Wire Line
-	8350 4700 8650 4700
+	8350 4700 8500 4700
 Wire Wire Line
 	8350 4700 7950 4700
 Wire Wire Line
@@ -2165,6 +2204,7 @@ F 0 "C62" H 7565 5646 50  0000 L CNN
 F 1 "100nF" H 7565 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7488 5450 50  0001 C CNN
 F 3 "~" H 7450 5600 50  0001 C CNN
+F 4 "" H 7450 5600 50  0001 C CNN "Digi-Key_PN"
 	1    7450 5600
 	1    0    0    -1  
 $EndComp
@@ -2205,6 +2245,7 @@ F 0 "TP10" H 6800 5550 50  0000 L CNN
 F 1 "TestPoint" H 6800 5650 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7200 5450 50  0001 C CNN
 F 3 "~" H 7200 5450 50  0001 C CNN
+F 4 "732-5314-ND" H 7000 5450 50  0001 C CNN "Digi-Key_PN"
 	1    7000 5450
 	1    0    0    -1  
 $EndComp
@@ -2228,6 +2269,7 @@ F 0 "C69" H 2265 4096 50  0000 L CNN
 F 1 "100nF" H 2265 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2188 3900 50  0001 C CNN
 F 3 "~" H 2150 4050 50  0001 C CNN
+F 4 "" H 2150 4050 50  0001 C CNN "Digi-Key_PN"
 	1    2150 4050
 	1    0    0    -1  
 $EndComp
@@ -2255,7 +2297,7 @@ F 3 "~" H 1800 4050 50  0001 C CNN
 $EndComp
 Connection ~ 1800 3900
 Wire Wire Line
-	1800 3900 1600 3900
+	1800 3900 1700 3900
 Wire Wire Line
 	1800 3900 2150 3900
 Connection ~ 2150 3900
@@ -2269,22 +2311,24 @@ F 0 "U30" H 10100 3647 60  0000 C CNN
 F 1 "NC7WZ00K8X" H 10100 3541 60  0000 C CNN
 F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 9650 3400 60  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 9650 3400 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	2    9650 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ioda:NC7WZ00K8X U26
 U 2 1 5E54F4CB
-P 9250 5700
-F 0 "U26" H 9700 6047 60  0000 C CNN
-F 1 "NC7WZ00K8X" H 9700 5941 60  0000 C CNN
-F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 9250 5800 60  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 9250 5800 60  0001 C CNN
-	2    9250 5700
+P 7900 6300
+F 0 "U26" H 8350 6647 60  0000 C CNN
+F 1 "NC7WZ00K8X" H 8350 6541 60  0000 C CNN
+F 2 "IODA_Lib:VSSOP-8_2.4x2.1mm_P0.5mm" H 7900 6400 60  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NC7WZ00-D.pdf" H 7900 6400 60  0001 C CNN
+F 4 "NC7WZ00K8XCT-ND" H -1350 600 50  0001 C CNN "Digi-Key_PN"
+	2    7900 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 5700 9250 5600
+	7900 6300 7900 6200
 Wire Wire Line
 	9650 3300 9650 3200
 NoConn ~ 10550 3200
@@ -2307,20 +2351,20 @@ Connection ~ 9650 3200
 $Comp
 L power:+5V #PWR?
 U 1 1 5E576DDA
-P 9200 5700
+P 7850 6300
 AR Path="/5E576DDA" Ref="#PWR?"  Part="1" 
 AR Path="/5DB7F50A/5E576DDA" Ref="#PWR?"  Part="1" 
 AR Path="/5DD4CF74/5E576DDA" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0165" H 9200 5550 50  0001 C CNN
-F 1 "+5V" H 9215 5873 50  0000 C CNN
-F 2 "" H 9200 5700 50  0001 C CNN
-F 3 "" H 9200 5700 50  0001 C CNN
-	1    9200 5700
+F 0 "#PWR0165" H 7850 6150 50  0001 C CNN
+F 1 "+5V" H 7865 6473 50  0000 C CNN
+F 2 "" H 7850 6300 50  0001 C CNN
+F 3 "" H 7850 6300 50  0001 C CNN
+	1    7850 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 5700 9250 5700
-Connection ~ 9250 5700
+	7850 6300 7900 6300
+Connection ~ 7900 6300
 $Comp
 L Device:C C70
 U 1 1 5E59D558
@@ -2343,6 +2387,7 @@ F 0 "C72" H 2815 7246 50  0000 L CNN
 F 1 "100nF" H 2815 7155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 7050 50  0001 C CNN
 F 3 "~" H 2700 7200 50  0001 C CNN
+F 4 "" H 2700 7200 50  0001 C CNN "Digi-Key_PN"
 	1    2700 7200
 	1    0    0    -1  
 $EndComp
@@ -2507,7 +2552,8 @@ P 1650 6750
 F 0 "U32" V 1850 6800 50  0000 L CNN
 F 1 "UMCC_50Ohm" V 1758 6927 50  0000 L CNN
 F 2 "IODA_Lib:Molex_734120114_UMC_RF_CONN_Vertical" H 1650 6750 50  0001 C CNN
-F 3 "" H 1650 6750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English" H 1650 6750 50  0001 C CNN
+F 4 "A118077CT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    1650 6750
 	1    0    0    -1  
 $EndComp
@@ -2533,7 +2579,7 @@ Wire Wire Line
 	5300 6700 5700 6700
 Connection ~ 8400 3200
 Wire Wire Line
-	8400 3200 8750 3200
+	8400 3200 8550 3200
 Connection ~ 8750 3200
 Connection ~ 7250 1050
 Wire Wire Line
@@ -2552,4 +2598,91 @@ Text Notes 9650 1150 0    50   ~ 0
 Biasing
 Text Notes 8100 850  0    50   ~ 0
 Bias-T for RF-amp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5E270093
+P 9750 4300
+F 0 "#FLG0106" H 9750 4375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9750 4473 50  0000 C CNN
+F 2 "" H 9750 4300 50  0001 C CNN
+F 3 "~" H 9750 4300 50  0001 C CNN
+	1    9750 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9750 4300
+Wire Wire Line
+	9750 4300 9850 4300
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5E27A8D8
+P 9700 5850
+F 0 "#FLG0107" H 9700 5925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 6023 50  0000 C CNN
+F 2 "" H 9700 5850 50  0001 C CNN
+F 3 "~" H 9700 5850 50  0001 C CNN
+	1    9700 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9700 5850
+Wire Wire Line
+	9700 5850 9850 5850
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5E27BC60
+P 2800 5200
+F 0 "#FLG0108" H 2800 5275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 5373 50  0000 C CNN
+F 2 "" H 2800 5200 50  0001 C CNN
+F 3 "~" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 5200 2900 5200
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5E27D4CC
+P 8550 3200
+F 0 "#FLG0109" H 8550 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 8550 3373 50  0000 C CNN
+F 2 "" H 8550 3200 50  0001 C CNN
+F 3 "~" H 8550 3200 50  0001 C CNN
+	1    8550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0110
+U 1 1 5E27DBBE
+P 8500 4700
+F 0 "#FLG0110" H 8500 4775 50  0001 C CNN
+F 1 "PWR_FLAG" H 8500 4873 50  0000 C CNN
+F 2 "" H 8500 4700 50  0001 C CNN
+F 3 "~" H 8500 4700 50  0001 C CNN
+	1    8500 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 4700
+Wire Wire Line
+	8500 4700 8650 4700
+Connection ~ 8550 3200
+Wire Wire Line
+	8550 3200 8750 3200
+NoConn ~ 8800 6200
+Wire Wire Line
+	8750 3200 9000 3200
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 5E28D366
+P 1700 3900
+F 0 "#FLG0111" H 1700 3975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 4073 50  0000 C CNN
+F 2 "" H 1700 3900 50  0001 C CNN
+F 3 "~" H 1700 3900 50  0001 C CNN
+	1    1700 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 3900
+Wire Wire Line
+	1700 3900 1600 3900
 $EndSCHEMATC
