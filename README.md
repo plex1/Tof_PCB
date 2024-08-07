@@ -1,11 +1,14 @@
 # Time-of-Flight (ToF) PCB 
 
-Contains Optical Transceiver for lidar or optical communication applications.
+Contains optical transceiver for lidar or optical communication applications.
 
-Laser diode:
+Laser diode options:
 -  OPV310
+-  SPL90 (not extensively tested)
+   - Mods required: The A version of the NCP81074A of the MOSFET driver should be used. The supply voltage for the Mosfet driver should be increased from 5V to 12V. The peak power can be considerably increased with a higher voltage and lower shunt resistor value. In this case the duty cycle should be increased correspondingly for eye safety.
+
   
-Photo diodes (2 options):
+Photo diodes options:
 - MTAPD-06-013
 - SiPM MICRORB-10020-MLP-TR1
 
