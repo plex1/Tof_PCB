@@ -1,0 +1,56 @@
+M2.5 mounting holes too small
+add 2 more mounting holes for a total of 6 for mechanical stability
+add 2 more holes in front of base input for mounting of right angle for SiPM configuration
+R26 and R27 should be 1.2k (490R) resistors instead of 0 Ohms
+Put ferrite bead at 5V source of bias t for rf amplifiers
+rename L to FB for ferrite beads
+L2 6.8u to 6.8uH
+100k uses digikey number for 110k resisotr
+silksceen for screw terminals should be adopted
+Test Point mounting holes are too small for pin header
+TLV3501 digikey number was wrong
+r38 should be soldered
+r27/r28 -> 1.2k or maybe 470 ohms
+amp directly at the photo diode / distance between nand driver and 220 ohm impence to rf amplifier can be longer,
+with 50 impedance traces between
+tapping with 200 ohms, the 200 ohm resistor should be close to the source, a 50 ohms track to the
+can be longer
+100 ohms resistor R43 too far from diode
+MAX40659 more ground vias
+Layout U6 is too close to the pulse generation circuit. It picks up some of the undesired negative clock edge.
+Power Connector ground not always on the same side.
+change R74 to 5/10M and R19 to 100k (and move to io with adc)
+Remove R13, no attenuation required due to the common mode input range being lower than 5V, -> never goes above 4V
+v_apd_r_sense PD0 not and analog input to the microcontroller, should have used PE2
+holes of dcdc module bigger such that socekts can be inserted. (1mm holes)
+APD, offset, Remove R56 and R54
+optional 150pF at MAX4059
+Buffer U34 seemed to emit noise into the Tx (TBD), remove or bypass?
+dc/dc collides with optics base for the SiPM option
+SiPM Vibas should be connected with 2x 50 Ohm resistors. See reference design, figure 8
+SiPM fast output cannot drive 50 ohms, put a buffer in between or use slow output.
+SiPM need negative voltage in current configuration.
+make SiPM footprint pads slighty larger towards the top and bottpm
+Add resistor to Rx of UART (and capacitor for filter), this solves to problem of the avr chip being powered by the ios
+check tia ground pad, too big? make a little smaller,
+tia should place vias, due to grounding and heat dissipation. more vias for sure, check footprint in general
+tia is esd sensitive on input (not protected)
+TIA alternative: MAX3658 (write in schematic, footprint compatible)
+goold plating should be done on pcb
+APD Biasing, use high resistor, then capacitor, then 50 ohm queching resistor, see datasheet LTC 6560 APD BIasing
+place additional mounting holes for right angle mirror
+
+Make a not that the apd pwm filter op amp output does not go over 5V-2V supply rail -> Common-mode voltage range
+,(which is actually a good thing).
+lockin_1 & lockin_2 rc filter should be added after the connector
+comparator for lockin_1 and lockin_2 to receive signal lower than 5V
+supply_lockin net is too long
+LMH6559 needs a load of 100 Ohms, now it has 50 ohms, -> add 50 Ohms output resistance after the chip, including the 50 ohms source resistor that gives 100 ohms
+The lockin output need to be amplified, currently the amplitudes are very small
+the lockin ouptuts need to be filtered again just before the microcontroller. At the moment they are noisy. Can be solved by adding a sw filter.
+add guard ring without solder mask around TIA
+ground test point not large enough tou mount pin headers
+place more ground test point with holes all over the board to place the ground pin of the probe into the hole, some can be mounted with pin headers to clip on ground banana plug
+The 3.3V supply for the TIA has a long trace between regulator and TIA. It should be shortened or a ferrite bead should be placed close to the decoupling caps for filtering. Make sure that the regulator sees a sufficient capacity at its output by placing an additional capacitor.
+The mosfet driver for the SPL90 diode needs 12 V supply. Works with 5V supply but at a lower current. 
+5V should be regulated on the board when possible. For sure do not use a common cable for the motor and the TofPCB. I had this case and depending on the motor load the APD signal had a different amplitude due to the voltage drop on the cable.
